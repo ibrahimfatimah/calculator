@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>standard calculator</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="one" id="show-el"></div>
+        <div class="two" id="showing-el"></div>
+        <button class="LG" onclick="clean()">AC</button>
+        <button class="LG" onclick="del()">Del</button>
+        <button class="LG" onclick="display('%')">%</button>
+        <button class="yellow" onclick="display('/')">/</button>
+        <button class="DG" onclick="display(7)">7</button>
+        <button class="DG" onclick="display(8)">8</button>
+        <button class="DG" onclick="display(9)">9</button>
+        <button class="yellow" onclick="display('*')">*</button>
+        <button class="DG" onclick="display(4)">4</button>
+        <button class="DG" onclick="display(5)">5</button>
+        <button class="DG" onclick="display(6)">6</button>
+        <button class="yellow" onclick="display('-')">-</button>
+        <button class="DG" onclick="display(1)">1</button>
+        <button class="DG" onclick="display(2)">2</button>
+        <button class="DG" onclick="display(3)">3</button>
+        <button class="yellow" onclick="display('+')">+</button>
+        <button class="big" onclick="display(0)">0</button>
+        <button class="DG" onclick="display('.')">.</button>
+        <button class="yellow" id="equal-el" onclick="calculate()">=</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
